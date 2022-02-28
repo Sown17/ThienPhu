@@ -1,0 +1,106 @@
+.footer{
+    text-align: center;
+    position: relative;
+    &-title{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: $main-color-2;
+        color: $white;
+        font-weight: 500;
+
+    }
+    &-contact{
+        position: absolute;
+        left: 50%;
+        transform:translateX(-50%);
+        top: 74px;
+    }
+    &-input{
+        width: 630px;
+        height: 48px;
+        padding: 0 25px;
+        position: relative;
+        outline: none;
+        background-color: #fff;
+        border: none;
+    }
+    &-btn{
+        padding: 0px 32px;
+        height: 48px;
+        background-color: $gray-blue;
+        border: none;
+        outline: none;
+        position: absolute;
+        right: 0;
+        font-size: 14px;
+        color: $white;
+    }
+    &-board{
+        text-align: start;
+        padding-bottom: 40px;
+        padding-top: 64px;
+        background-color: #E8E8E8;
+    }
+    &-caption{
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    &-nav{
+        li{
+            list-style: none;
+            line-height: 1.6;
+            a{
+                font-size: 14px;
+                color: #000;
+            }
+        }
+    }
+    &-number{
+        color: #699B3B;
+        margin-bottom: 25px;
+        font-weight: 700;
+    }
+
+    &-social{
+        .icon{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $gray-blue;
+            float: left;
+            margin-left: 15px;
+            span{
+                width: 30;
+                height: 30;
+                padding: 10px;
+                color: $white;
+            }
+        }
+        .facebook{
+            margin-left: 0px;
+        }
+    }
+    @media screen and (max-width: 1023.98px) {
+        .footer-caption {
+            font-weight: bold;
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+        .footer-number {
+            color: #699B3B;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+    }
+    @media screen and (max-width: 576px) {
+        &-input{
+            width: 375px;
+            height: 48px;;
+        }
+    }
+    
+    
+}
