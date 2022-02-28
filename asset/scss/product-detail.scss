@@ -1,8 +1,11 @@
 .breadcrumb{
-    text-align:  center;
+    p {
+        padding-left:7%;
+    }
+    text-align:  start;
     padding: 12px 0px;
     font-size: 18px;
-    background-color: rgb(136, 136, 136);
+    color: $white;
 }
 .product__detail{
     margin-top: 50px;

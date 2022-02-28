@@ -790,10 +790,13 @@ a {
 }
 
 .breadcrumb {
-  text-align: center;
+  text-align: start;
   padding: 12px 0px;
   font-size: 18px;
-  background-color: #888888;
+  color: #FFFFFF;
+}
+.breadcrumb p {
+  padding-left: 7%;
 }
 
 .product__detail {
@@ -885,7 +888,7 @@ a {
   }
 }
 .breadcrumb {
-  text-align: center;
+  text-align: start;
   padding: 12px 0px;
   font-size: 18px;
   background-color: #969696;
@@ -995,7 +998,7 @@ a {
 .contact-page .fact {
   padding: 30px;
   text-align: start;
-  background-color: #c2c2c2;
+  background-color: #eeeeee;
   height: 100%;
   line-height: 1.8;
 }
