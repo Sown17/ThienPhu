@@ -177,7 +177,7 @@
     &-content{
         display: flex;
         align-content: center;
-        height: 455px;
+        height: 395px;
     }
     &-right{
         img{
@@ -186,14 +186,14 @@
         }
     }
     &-menu{
-        height: 375px;
+        height: 335px;
         overflow-y: auto;
         overflow-x: hidden;
     }
     &-left{
         padding: 33px 86px;
         background-color: $main-color;
-        width: 50%;
+        max-width: 50%;
     }
     &-list{
         padding: 18px 28px;
@@ -236,7 +236,7 @@
     @media screen and (max-width: 1023.98px) {
         &-left{
             padding: 15px 20px;
-            height: 260px;
+            height: 249px;
         }
         &-menu{
             height: 225px;
@@ -277,7 +277,6 @@
         background-color: $white;
         width: 50%;
         margin: 0 20px;
-        width: 508px;
     }
     &-caption{
         line-height: 1.5;
@@ -287,9 +286,11 @@
         margin-top: 20px;
         margin-bottom: 5px;
         font-size: 18px;
+        padding-left: 30px;
         font-weight: 700;
     }
     &-news{
+        padding-left: 30px;
         font-size: 14px;
     }
     .chevron-prev,
