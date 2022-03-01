@@ -242,6 +242,9 @@ a {
   color: #676769;
 }
 @media screen and (max-width: 1023.98px) {
+  .nav {
+    margin-top: 100px;
+  }
   .nav-menu {
     padding-left: 40px;
     margin-top: 23px;
@@ -1024,6 +1027,9 @@ a {
 .google-map {
   margin-bottom: 50px;
 }
+.google-map iframe {
+  width: 100%;
+}
 
 @media screen and (max-width: 1023.98px) {
   .contact-page {
@@ -1037,10 +1043,6 @@ a {
   .header-main {
     top: 0px;
   }
-
-  .google-map {
-    display: none;
-  }
 }
 @media screen and (max-width: 576px) {
   .contact-page input {
@@ -1049,7 +1051,7 @@ a {
   }
 
   .google-map {
-    display: none;
+    height: 100%;
   }
 }
 

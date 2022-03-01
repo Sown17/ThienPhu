@@ -47,6 +47,9 @@
 }
 .google-map{
     margin-bottom: 50px;
+    iframe{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 1023.98px) {
     .contact-page{
@@ -59,17 +62,14 @@
     .header-main{
         top: 0px;
     }
-    .google-map{  
-        display: none;
-    }
 }
 @media screen and (max-width:576px) {
     .contact-page input{
         margin: 0 10px;
         margin: unset;
     }
-    .google-map{  
-        display: none;
+    .google-map{
+        height: 100%;
     }
 }
 
