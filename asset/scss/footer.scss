@@ -35,6 +35,9 @@
         font-size: 14px;
         color: $white;
         cursor: pointer;
+        &:hover{
+            background-color: $main-color;
+        }
     }
     &-board{
         text-align: start;

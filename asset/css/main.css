@@ -163,7 +163,8 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: #699b3b;
+  border-radius: 4px;
 }
 @media screen and (max-width: 1023.98px) {
   .header {
@@ -731,6 +732,9 @@ a {
   font-size: 14px;
   color: #FFFFFF;
   cursor: pointer;
+}
+.footer-btn:hover {
+  background-color: #699b3b;
 }
 .footer-board {
   text-align: start;
