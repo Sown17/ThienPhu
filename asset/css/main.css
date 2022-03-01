@@ -660,6 +660,7 @@ a {
 }
 .news-img img {
   width: 100%;
+  cursor: pointer;
 }
 .news-date {
   padding: 5px 20px;
@@ -729,6 +730,7 @@ a {
   right: 0;
   font-size: 14px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 .footer-board {
   text-align: start;
