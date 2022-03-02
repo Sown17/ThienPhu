@@ -193,7 +193,7 @@
     &-left{
         padding: 30px 50px;
         background-color: $main-color;
-        max-width: 50%;
+        width: 50%;
     }
     &-list{
         padding: 18px 28px;
@@ -232,11 +232,9 @@
         &-item{
             padding: 0 20px;
         }
-    }
-    @media screen and (max-width: 1023.98px) {
         &-left{
             padding: 15px 20px;
-            height: 249px;
+            height: auto;
         }
         &-menu{
             height: 225px;
@@ -246,7 +244,6 @@
         }
     }
     @media screen and (max-width: 576px) {
-        
         &-content{
             flex-direction: column;
         }
@@ -380,6 +377,9 @@
         margin-bottom: 20px;
         color: $white;
     }
+    &-btn{
+        margin-top: 50px;
+    }
     &-more{
         padding-top: 20px;
         a{
@@ -391,15 +391,10 @@
             }
         }
     }
-    &-btn{
-        margin-top: 50px;
-    }
     @media screen and (max-width: 576px) {
         &-img{
             margin-top: 30px;
         }
-    }
-    @media screen and (max-width: 576px) {
         &-img{
             padding-bottom: 30px;
             

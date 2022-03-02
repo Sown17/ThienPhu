@@ -4,7 +4,10 @@
         font-size: 14px;
         height: 48px;
         line-height: 48px;
-        color: #fff;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
     }
     &-title{
         padding: 0 30px;
@@ -14,9 +17,6 @@
     }
     &-img{
         padding-right: 5px;
-    }
-    &-box{
-        transform: translateY(5px);
     }
     &-item{
         i{
@@ -31,7 +31,7 @@
         align-items: center;
     }
     &-input{
-        padding: 19px 35px;
+        padding: 15px 35px;
         width: 562px;
         border: 1px solid $gray-blue;
         border-radius: 50px;
@@ -41,10 +41,10 @@
     &-seach{
         padding-left: 120px;
     }
-    &-button{
+    &-btn{
         margin-top: 1px;
         width: 139px;
-        padding: 19px 35px;
+        padding: 15px 0px;
         border-radius: 50px;
         border: none;
         outline: none;
@@ -93,6 +93,7 @@
         background-color: $main-color;
         border-radius: 4px;
     }
+    
     @media screen and (max-width: 1023.98px) {
         .title-bg{
             display: none;
@@ -157,27 +158,64 @@
     background-color: #f0efed;
     position: sticky;
     top: 0;
+    .menu-small{
+        display: none;
+        li{
+            list-style: none;
+            padding: 10px 20px;
+            background-color: #cecece;
+            width: 200px;
+        }
+    }
     &-menu{
-        padding: 18px 0px;
+        margin-bottom: 0px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         text-transform: uppercase;
         background-color: #fff;
         background-color: rgba(240, 239, 237, 1);
+        height: 50px;
+        :nth-child(5):hover,
+        :nth-child(4):hover
+        {
+            position: relative;
+            .menu-small{
+                display: block;
+                position: absolute;
+                border: 1px solid $main-color-2;
+                li{
+                    font-size: 13px;
+                    border-bottom: 1px solid $main-color;
+                    line-height: 1.5;
+                    &:hover{
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
 
     }
     &-list{
         display: inline-block;
+
     }
     &-link{
-        color: rgba(103, 103, 105, 1);  
+        color: rgba(103, 103, 105, 1);
+        padding: 0;
+        :hover{
+            text-decoration: none;
+        }
 
     }
     @media screen and (max-width: 1023.98px) {
         margin-top: 100px;
+        .nav-menu.active {
+            left: 0px;
+            padding: 20px;
+        }
         &-menu {
-            padding-left: 40px;
+            line-height: 1.7;
             margin-top: 23px;
             position: fixed;
             left: -100%;
@@ -203,15 +241,34 @@
             left: 0;   
         }  
         &-list {
-            margin-bottom:50px;
             display: block;
+            margin-bottom: 0px;
 
         }
         &-link{
             color: #101010;
         }
+        .menu-small{
+            display: block;
+            padding-bottom: 20px;
+            border: none;
+            li{
+                background-color: #c4c4c4;
+                width: 100%;
+                font-size: 16px;
+                border-bottom: 1px solid $main-color;
+                padding: 5px 20px;
+            }
+            
+        }
         
     }
+    @media screen and (max-width: 576px) {
+        &-menu {
+            width: 100%;
+        }
+    }
+    
     
 }
 .banner{

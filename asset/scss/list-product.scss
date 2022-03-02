@@ -1,0 +1,26 @@
+.list-seach{
+    margin-bottom: 50px;
+    .list-title{
+        background-color: $main-color;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px 0;
+            color: $white;
+    }
+    .list-list{
+        text-align: start;
+        padding: 20px 30px;
+        list-style: none;
+        background-color: #c3c3c3;
+        border: 1px solid $main-color;
+        cursor: pointer;
+        &:hover{
+            background-color: #fff;
+            color: #050505;
+        }
+    }
+    .list-link{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
