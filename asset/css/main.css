@@ -232,6 +232,7 @@ ul {
   background-color: #f0efed;
   position: sticky;
   top: 0;
+  border-bottom: 1px solid #699b3b;
 }
 .nav .menu-small {
   display: none;

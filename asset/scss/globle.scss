@@ -40,6 +40,14 @@
         background-color: $gray-blue;
     }
 }
+@mixin text-truncate($q) {
+    display: -webkit-box;
+    -webkit-line-clamp: $q;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+  }
 @media screen and (max-width: 576px) {
     .title{
         font-size: 18px;

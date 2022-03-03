@@ -19,7 +19,7 @@ $('.customer-slick').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: false,
-    dots: true,
+    dots: false,
     autoplaySpeed: 2000,
     prevArrow: '<button class="chevron-prev"><i class="fa-solid fa-angle-left"></i></button>',
     nextArrow: '<button class="chevron-next"><i class="fa-solid fa-angle-right"></i></button>',

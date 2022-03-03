@@ -158,6 +158,7 @@
     background-color: #f0efed;
     position: sticky;
     top: 0;
+    border-bottom: 1px solid $main-color;
     .menu-small{
         display: none;
         li{
@@ -194,7 +195,6 @@
                 }
             }
         }
-
     }
     &-list{
         display: inline-block;
